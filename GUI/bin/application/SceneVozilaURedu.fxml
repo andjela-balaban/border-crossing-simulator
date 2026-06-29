@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: EEEEEE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RedVozilaController">
+   <children>
+      <ListView fx:id="listView" layoutX="8.0" layoutY="8.0" prefHeight="386.0" prefWidth="291.0" />
+      <TextArea fx:id="infoVozilo" layoutX="303.0" layoutY="39.0" prefHeight="353.0" prefWidth="486.0" style="-fx-background-color: FFFFFF;" />
+      <Label layoutX="317.0" layoutY="14.0" prefHeight="19.0" prefWidth="182.0" text="Informacije o vozilu:">
+         <font>
+            <Font name="Helvetica Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
