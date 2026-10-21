@@ -1,0 +1,42 @@
+# ====================================================================
+# Git Ignore za Border Crossing Simulator (PJ2 Projekat)
+# ====================================================================
+
+# Kompajlirani fajlovi i izvršni bytecode
+bin/
+*/bin/
+*.class
+
+# Eclipse konfiguracija i metapodaci projekta
+.settings/
+*/.settings/
+.project
+*/.project
+.classpath
+*/.classpath
+build.fxbuild
+*/build.fxbuild
+
+# IntelliJ IDEA i drugi IDE-ovi
+.idea/
+*.iml
+.vscode/
+
+# Operativni sistem (macOS, Windows)
+.DS_Store
+*/.DS_Store
+*.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Izlazni log fajlovi izvršavanja
+*.log
+logs/
+*/logs/
+
+# Izlazni binarni fajlovi serijalizacije
+*.ser
+serijalizacijaKaznjenihPutnika/
+*/serijalizacijaKaznjenihPutnika/
+
